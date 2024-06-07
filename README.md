@@ -32,25 +32,26 @@
 
 
 ### Lista de opciones
-**Archivo**: ListaOpciones.java
+**Archivo**: `ListaOpciones.java`
 
 **Descripción**: Maneja una lista de opciones seleccionables, útil para menús y selección de configuraciones.
 
 ### Matematicas
-**Archivo**: Mate.java
+**Archivo**: `Mate.java`
 
 **Descripción**: Contiene métodos y operaciones matemáticas comunes, como cálculo de factorial, potencias, etc.
 
 
 ### IMC método
-**Archivo**: ImcMetodo.java
+**Archivo**: `ImcMetodo.java`
 
 **Descripción**: Calcula el Índice de Masa Corporal (IMC) basado en la altura y el peso proporcionados por el usuario.
 
 
 ### Unidades de medida
-**Archivo**: Medidas.java
-Descripción: Un programa que permite la conversión entre diferentes unidades de medida, en este caso: Medidas de Longitud.
+**Archivo**: `Medidas.java`
+
+**Descripción**: Un programa que permite la conversión entre diferentes unidades de medida, en este caso: Medidas de Longitud.
 
 ## Aportaciones y comentarios
 ### Contribución
