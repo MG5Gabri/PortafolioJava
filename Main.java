@@ -6,6 +6,7 @@ import lista_opcs.ListaOpciones;
 import matematicas.Mate;
 import programas.ImcMetodo;
 import unidadesDeMedida.Medidas;
+import conversor.ConversorDeMonedas;
 
 //importar nombreLibrería.nombreDePaquete.NombreClase
 import java.util.Scanner;
@@ -17,7 +18,7 @@ public class Main {
                 "Calculadora", "IMC",
                 "Farenheit y Celsius", "Calcular edad",
                 "Medidas", "Lista",
-                "Opción_7", "Opción_8",
+                "Conversor de Monedas", "Opcion_8",
                 "Opción_9", "Salir" };
 
 
@@ -58,7 +59,7 @@ public class Main {
                     ListaDeCompras.programa();
                     break;
                 case 7:
-                    System.out.println("Opción 7 en proceso");
+                    ConversorDeMonedas.convertirMonedas();
                     break;
                 case 8:
                     System.out.println("Opción 8 en proceso");

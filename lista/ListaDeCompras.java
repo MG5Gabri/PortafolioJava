@@ -21,7 +21,7 @@ public class ListaDeCompras {
                     crearLista();
                     break;
                 case 2:
-                    System.out.println("opcion 2");
+                    System.out.println("Salir");
                     break;
             }
         }

@@ -53,6 +53,12 @@
 
 **Descripción**: Un programa que permite la conversión entre diferentes unidades de medida, en este caso: Medidas de Longitud.
 
+### Conversor De Monedas
+**Archivo**: `ConversorDeMonedas.java`
+
+**Descripción**: Un programa que permite la conversión de diferentes monedas, que son: Quetzales, Dolares Y Pesos Mexicanos
+
+
 ## Aportaciones y comentarios
 ### Contribución
 Las contribuciones son bienvenidas. Siéntete libre de abrir un issue o enviar un pull request si encuentras algún problema o tienes alguna mejora.
