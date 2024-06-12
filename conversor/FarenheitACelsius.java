@@ -1,6 +1,6 @@
-package conversiónDeTemperatura;
+package conversor;
 
-import lista_opcs.ListaOpciones;
+import mis_metodos.ListaOpciones;
 
 import java.util.Scanner;
 
@@ -22,12 +22,12 @@ public class FarenheitACelsius {
         double temperatura = tmp.nextDouble();
 
         switch (r_Temperatura) {
-        case 1:
-            System.out.println("Resultado: " + celciusResp(temperatura));
-            break;
-        case 2:
-            System.out.println("Resultado: " + farenheitResp(temperatura));
-            break;
+            case 1:
+                System.out.println("Resultado: " + celciusResp(temperatura));
+                break;
+            case 2:
+                System.out.println("Resultado: " + farenheitResp(temperatura));
+                break;
         }
     }
     public static double celciusResp (double temperatura) {

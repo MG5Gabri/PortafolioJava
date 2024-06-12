@@ -1,11 +1,11 @@
 //importar del nombreDelPaquete.NombreClase
-import conversiónDeTemperatura.FarenheitACelsius;
+import conversor.FarenheitACelsius;
 import interfaz_grafica.Cartelito;
 import lista.ListaDeCompras;
-import lista_opcs.ListaOpciones;
-import matematicas.Mate;
+import mis_metodos.ListaOpciones;
+import calculadora.Mate;
 import programas.ImcMetodo;
-import unidadesDeMedida.Medidas;
+import conversor.Medidas;
 import conversor.ConversorDeMonedas;
 
 //importar nombreLibrería.nombreDePaquete.NombreClase

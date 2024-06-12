@@ -1,6 +1,6 @@
-package unidadesDeMedida;
+package conversor;
 
-import lista_opcs.ListaOpciones;
+import mis_metodos.ListaOpciones;
 
 import java.util.Scanner;
 

@@ -1,6 +1,6 @@
-package matematicas;
+package calculadora;
 
-import lista_opcs.ListaOpciones;
+import mis_metodos.ListaOpciones;
 
 import java.util.Scanner;
 
