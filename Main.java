@@ -1,9 +1,11 @@
 //importar del nombreDelPaquete.NombreClase
+import biblioteca.BibliotecaGabri;
 import conversor.FarenheitACelsius;
 import interfaz_grafica.Cartelito;
 import lista.ListaDeCompras;
 import mis_metodos.ListaOpciones;
 import calculadora.Mate;
+import mis_metodos.MisMetodos;
 import programas.ImcMetodo;
 import conversor.Medidas;
 import conversor.ConversorDeMonedas;
@@ -35,39 +37,46 @@ public class Main {
             Scanner intoOpcion = new Scanner(System.in);
             System.out.print("[?]: ");
             int opcion = intoOpcion.nextInt();
-            System.out.println("-------------------");
+            MisMetodos.imprimirLinea();
 
             //Cargar programa segun la opción del usuario
 
             switch (opcion) {
                 case 1:
                     Mate.opt_matematicas();
+                    MisMetodos.imprimirLinea();
                     break;
                 case 2:
                     ImcMetodo.programa_IMC();
+                    MisMetodos.imprimirLinea();
                     break;
                 case 3:
                     FarenheitACelsius.cTemperatua();
+                    MisMetodos.imprimirLinea();
                     break;
                 case 4:
                     System.out.println("Opción 4 En proceso");
                     break;
                 case 5:
                     Medidas.mLongitud();
+                    MisMetodos.imprimirLinea();
                     break;
                 case 6:
                     ListaDeCompras.programa();
+                    MisMetodos.imprimirLinea();
                     break;
                 case 7:
                     ConversorDeMonedas.convertirMonedas();
+                    MisMetodos.imprimirLinea();
                     break;
                 case 8:
-                    System.out.println("Opción 8 en proceso");
+                    BibliotecaGabri.contructor();
                     break;
                 case 9:
                     System.out.println("Opción 9 en proceso");
                     break;
                 case 10:
+                    MisMetodos.limpiarConsola();
                     programa = false; // Esta línea para salir del bucle
                     break;
             }
