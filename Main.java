@@ -9,6 +9,7 @@ import mis_metodos.MisMetodos;
 import programas.ImcMetodo;
 import conversor.Medidas;
 import conversor.ConversorDeMonedas;
+import rockemmaSchool.Escuela;
 
 //importar nombreLibrería.nombreDePaquete.NombreClase
 import java.util.Scanner;
@@ -21,7 +22,7 @@ public class Main {
                 "Farenheit y Celsius", "Calcular edad",
                 "Medidas", "Lista",
                 "Conversor de Monedas", "Opcion_8",
-                "Opción_9", "Salir" };
+                "RokemmaSchool", "Salir" };
 
 
         boolean programa = true;
@@ -73,7 +74,7 @@ public class Main {
                     BibliotecaGabri.contructor();
                     break;
                 case 9:
-                    System.out.println("Opción 9 en proceso");
+                    Escuela.imprimirNombres();
                     break;
                 case 10:
                     MisMetodos.limpiarConsola();

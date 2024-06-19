@@ -67,6 +67,19 @@
 
 **Descripción**: Este programa cuenta con el método get, set, toString y el metodo constructor llamado Libro, el cual ordena los libros de la siguiente manera (Título, autor y año de publicación)
 
+### Colegios
+**Archivo**: `Cursos.java`
+
+**Descripción**: Este programa cuenta con el método get, set, toString y el método toString se encarga de solo imprimir todo el Curso (Nombre, categoría y periodo)
+
+**Archivo**: `Escuela.java`
+
+**Descripción**: Un programa que almacena 5 estudiantes y 4 cursos, e imprime el listado de los 5 alumnos con su nombre y correos, tambien imprime los datos de cada curso.
+
+**Archivo**: `Estudiantes.java`
+
+**Descripción**: Este programa cuenta con el método get, set, toString y el método toString se encarga de solo imprimir solo 2 variables de cada estudiante (Nombre y correo)
+
 
 ## Aportaciones y comentarios
 ### Contribución
