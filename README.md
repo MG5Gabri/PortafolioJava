@@ -11,6 +11,8 @@
 
 **Descripción**: Punto de entrada principal del portafolio, puede utilizarse para navegar entre los diferentes programas.
 
+**Descripción**: Además acabamos de utilizar swing para hacer una ventana la cuál tiene la intención de desplegar de manera gráfica los programas.
+
 ### Conversor De Temperatura
 **Archivo**: `FarenheitACelsius.java`
 
